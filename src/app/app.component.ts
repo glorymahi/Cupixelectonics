@@ -1,7 +1,7 @@
 import { Component,OnInit, Inject} from '@angular/core';
 import { MatDialog, MatDialogConfig, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { BooknowComponent } from './booknow/booknow.component';
-import { FormGroup, FormBuilder } from '@angular/forms';
+// import { BooknowComponent } from './booknow/booknow.component';
+
 
 @Component({
   selector: 'app-root',
@@ -28,12 +28,12 @@ openDialog() {
       title: 'Angular For Beginners'
   };
 
-  this.dialog.open(BooknowComponent, dialogConfig);
+//   this.dialog.open(BooknowComponent, dialogConfig);
   
-  const dialogRef = this.dialog.open(BooknowComponent, dialogConfig);
+//   const dialogRef = this.dialog.open(BooknowComponent, dialogConfig);
 
-  dialogRef.afterClosed().subscribe(
-      data => console.log("Dialog output:", data)
-  );    
+//   dialogRef.afterClosed().subscribe(
+//       data => console.log("Dialog output:", data)
+//   );    
 }
 }

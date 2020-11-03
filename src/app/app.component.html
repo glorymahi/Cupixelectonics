@@ -1,73 +1,42 @@
-<!-- <div class="container">
-  <h1 class="display-4 text-center mb-4">Bootstrap Modals</h1>
-  
-  <div class="row mb-4">
-    <div class="col text-center">
-      <h3>The Basic Modal</h3>
-      <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Click to open Modal</a>
-    </div>
-  </div>
-  
-  
-</div> -->
-
 <!-- basic modal -->
-<!-- <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Basic Modal</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h3>Modal Body</h3>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-   
-
-
-
+ 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
  
-   <nav class="navbar navbar-inverse" style="background-color: white;">
+   <nav class="navbar navbar-header" style="background-color: white;width:105%;height:11%;">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#" style="color:brown;font-size:150%">CUPIX Electronics</a>
+      <a class="navbar-brand" style="color: #6b6b47;font-size:230%;margin-left:1%;margin-top:2%;"><b>CUPIX Electronics</b></a>
       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-      &nbsp; &nbsp;  
+      &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; 
     </div>
-    <!-- routerLink="/about" routerLinkActive="active" -->
+     
     <ul class="nav navbar-nav">
-      <li class="active" ><a  >Home</a></li>
-      <li><a routerLink="/about" style="color:black">About Us</a></li>
-      <li><a href="#" style="color:black">Services</a></li>
-      <li><a href="#" style="color:black">Gallery</a></li>
-      <li><a href="#" style="color:black">Team</a></li>
-      <li><a href="#" style="color:black">Contact Us</a></li>
+      <li class="active" style="font-size:larger"><a>Home</a></li>
+      <li><a routerLink="/about" routerLinkActive="active"  style="font-size: larger;color:black">About Us</a></li>
+      <li><a routerLink="/offer" routerLinkActive="active" style="font-size: larger;color:black">Services</a></li>
+      <li><a href="#" style="font-size: larger;color:black">Gallery</a></li>
+      <li><a href="#" style="font-size: larger;color:black">Team</a></li>
+      <li><a href="#" style="font-size: larger;color:black">Contact Us</a></li>
       
     </ul>
-    <button class="btn navbar-btn" style="color:#ff6600;">Get Started</button>
+    <button class="btn navbar-btn" style="background-color:#ff6600;color:white;">Get Started</button>
   </div>
 </nav>
 <div class="row"  style="background-color: #ffe6e6;">
-  <div class="col-lg-6" >
+  <div class="col-lg-6" style="margin-top:2%;" >
     <br/>
-   <h1 style="margin-left:20%;"><b>Better Digital</b></h1>
-   <h1 style="margin-left:20%;"><b>Experience with Cupix</b></h1>
-   <h2 style="margin-left:20%;">For all your problems with TV,</h2>
-   <h2 style="margin-left:20%;">CALL US @ 044-48638885</h2>
-    <button class="btn navbar-btn" style="background-color:#ff6600;margin-left:20%;">Book Us Know</button>
+   <h1 style="margin-left:20%;font-size:350%;color: #4d4d33;"><b>Better Digital</b></h1>
+   <h1 style="margin-left:20%;font-size:350%;color: #4d4d33;"><b>Experience with Cupix</b></h1>
+   <p style="margin-left:20%;font-size: 160%;color: #7a7a52;">For all your problems with TV,</p>
+   <p style="margin-left:20%;font-size: 160%;color: #7a7a52; ">CALL US @ 044-48638885</p>
+   <button class="btn navbar-btn" style="background-color:#ff6600;color:white;margin-left:20%;">Book Us Know</button>
+   <!-- <a routerLink="/book" routerLinkActive="active"  style="background-color:coral;margin-left:20%;color:white;width:5%;height:5%;">
+    Book Us Know</a> -->
+    <!-- <button class="btn navbar-btn"  routerLink="/book" routerLinkActive="active" 
+    style="background-color:#947f70;
+    margin-left:20%;">Book Us Know</button> -->
 </div>
    <div class="col-lg-6">
     <img src="https://www.cupix.in/assets/img/about-img.svg" alt="...." class="vert-move" width="500" height="500">
@@ -75,5 +44,5 @@
 </div>
 
 
-<button id="myBtn"><a href="#top" style="color: white">Top</a></button>
+<button id="myBtn"><a href="#top" style="color: white">^</a></button>
 <router-outlet></router-outlet>
